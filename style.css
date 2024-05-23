@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;/*for smooth scrolling on navigation links*/
+
+}
+
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	position: relative;
+}
+.navbar{
+	display: flex; /*one after one*/
+	justify-content: space-between; /*space varaan 2 sidekk aavm*/
+	width: 85%;
+	margin-left: 100px;
+	align-items: center; /*vertically centre*/
+}
+.logo{
+	width: 130px;
+
+}
+.listitem{
+	display: inline-block;/*single line*/
+	list-style: none;/*bullet oyvakkaan*/
+	margin: 10px 20px;
+}
+.link{
+	color: darkred;
+	text-decoration: none; /*under line oyvakkan*/
+	font-weight: bold;
+}
+.link:hover{
+	color: yellowgreen;
+
+}
+
+
+/*----------------------------------*/
+
+.title{
+	margin-left:8% ;
+	margin-top: 13%;
+}
+.title_h1{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+#lastname{
+	color: orangered;
+}
+.title_p{
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.title_a{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+.title_a:hover{
+	color: red;
+}
+
+.images{
+	width: 45%;
+	height: 80%;
+	position: absolute; 
+	right: 15px;
+	bottom: 0px;
+
+}
+.images img{
+	position: absolute;/*over lap*/
+	left: 60%;
+	bottom: 0px;
+	transform: translateX(-70%);/*cancel scroll */
+	transition: bottom 1s,left 1s;
+}
+.images #man{
+	margin-left: 80px;
+
+}
+.images:hover #shape{
+	bottom: 20px;
+} 
+
+.images:hover #man{
+	left: 45%;
+} 
+#about{
+	margin: 18% 8% 0px 8%;
+}
+.heading{
+	text-align: center;
+}.heading h2{
+	color: darkviolet;
+	font-size: 30px;
+}
+.heading span{
+	font-size: 20px;
+	color: green;
+}
+.about_content{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2px;
+	/*it is also like:-
+	display: flex;
+	justify-content: space-between;*/
+	
+}
+
+p{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.about_img img{
+	height: 500px;
+	width: 500px;
+}
+.about_details{
+	font-size: 18px;
+	font-weight: 500;
+	text-align: justify;/*starting ending orupole aavm or align akaan*/
+}
+.info_icons{
+	margin-bottom: 1rem;
+}
+
+.info_icons span{
+	margin-left: 5px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+
+#skill{
+	margin: 18% 8% 0px 8%;	
+}
+.skillcontent{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2px;
+}
+.barcontainer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0px;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.basebar{
+
+	background-color: greenyellow;
+	width: 100%;
+	height: 8px ;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0px;
+	
+}
+.htmlbar1{
+	background-color: saddlebrown;
+	width: 96%;
+}
+
+.htmlbar2{
+	background-color: saddlebrown;
+	width: 90%;
+}
+
+.htmlbar3{
+	background-color: saddlebrown;
+	width: 89%;
+}
+.htmlbar4{
+	background-color: saddlebrown;
+	width: 85%;
+}
+
+
+
+.barcontainer h3 span{
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.progressbar{
+	margin-top: 90px;
+	margin-right: 20px;
+}
+
+.skillimg img{
+	height: 500px;
+	width: 500px;
+	margin-left: 50px;
+}
+
+/*-----------------------------------------------*/
+
+.icons {
+	
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	/*border-radius: 50px;
+	border: solid black 1px;*/
+
+
+	display: flex; /* horizontally line */
+	justify-content: center;  /*horizontally centre*/
+	align-items: center;  /* vertically centre */
+
+}
+.contacticons {
+	margin-top: 20px;
+
+
+	display: flex; /* horizontally line */
+	justify-content: center;  /*horizontally centre*/
+	align-items: center;  /* vertically centre */
+}
+.icons i{
+	font-size: 30px;
+	color: black;
+}
+.icons:hover{
+
+	background-image: linear-gradient(to bottom, red , white  );
+	border-radius: 50px;
+	border: solid black 1px;
+	animation: shake 0.75s;
+
+}
+
+@keyframes shake{
+	10% {transform: rotate(15deg);}
+	20% {transform: rotate(-15deg);}
+	30% {transform: rotate(15deg);}
+	40% {transform: rotate(-15deg);}
+}
+
+
+.icons i :hover{
+	font-size: 20px;
+}
+
+footer {
+	margin: 3rem 0px;
+}
+
+
+.arrow {
+	background-color: black;
+	background-image: linear-gradient( to bottom , grey,black);
+	width: 30px;
+	height: 40px;
+	border-radius: 50px;
+	float: right;
+
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.arrow i {
+	color: white;
+
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+
+
+	
+}
+.arrow i:hover{
+	color: red;
+}
