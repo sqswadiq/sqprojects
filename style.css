@@ -39,7 +39,7 @@
 }
 
 
-/*----------------------------------*/
+/*--------------about--------------------*/
 
 .title{
 	margin-left:8% ;
@@ -140,11 +140,11 @@ p{
 	margin-left: 5px;
 }
 
-/*-----------------------------------------------------------------------*/
+/*----------------------------skill-------------------------------------------*/
 
 
 #skill{
-	margin: 18% 8% 0px 8%;	
+	margin: 10% 8% 0px 8%;	
 }
 .skillcontent{
 	display: grid;
@@ -207,7 +207,7 @@ p{
 	margin-left: 50px;
 }
 
-/*-----------------------------------------------*/
+/*-------------------contact----------------------------*/
 
 .icons {
 	
@@ -288,3 +288,98 @@ footer {
 .arrow i:hover{
 	color: red;
 }
+
+
+
+
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+		margin-left: 0;
+		padding: 10px;
+	}
+
+	.listitem {
+		margin: 5px 10px;
+	}
+
+	.title {
+		margin-left: 5%;
+		margin-top: 10%;
+	}
+
+	.title_h1 {
+		font-size: 28px;
+	}
+
+	.title_p {
+		font-size: 18px;
+	}
+
+	.title_a {
+		padding: 8px 16px;
+	}
+
+	.images {
+		width: 100%;
+		height: 50%;
+		right: 0;
+		bottom: 0;
+	}
+
+	.images img {
+		position: absolute;
+		left: 50%;
+		bottom: 0px;
+		transform: translateX(-50%);
+		transition: bottom 1s, left 1s;
+	}
+
+	.images #man {
+		left: 50%;
+		margin-left: -80px; /* Adjust to align correctly */
+	}
+
+	.images:hover #shape {
+		bottom: 20px;
+	}
+
+	.images:hover #man {
+		left: 50%;
+	}
+
+	.about_content {
+		grid-template-columns: 1fr;
+	}
+
+	.about_img img, .skillimg img {
+		height: auto;
+		width: 100%;
+	}
+
+	.skillcontent {
+		grid-template-columns: 1fr;
+	}
+
+	.progressbar {
+		margin-top: 20px;
+	}
+
+	.contacticons {
+		flex-direction: column;
+	}
+
+	.icons {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.arrow {
+		width: 25px;
+		height: 35px;
+	}
+}
+
