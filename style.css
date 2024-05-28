@@ -227,7 +227,7 @@ p{
 	margin-top: 20px;
 
 
-	display: flex; /* horizontally line */
+	display: flex; /* horizontally line or one after one*/
 	justify-content: center;  /*horizontally centre*/
 	align-items: center;  /* vertically centre */
 }
@@ -340,7 +340,7 @@ footer {
 
 	.images #man {
 		left: 50%;
-		margin-left: -80px; /* Adjust to align correctly */
+		margin-left: -80px; /* Adjust To align correctly */
 	}
 
 	.images:hover #shape {
