@@ -1,0 +1,192 @@
+.navheader{
+    background-color: #fff;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .04), 0 1px 5px 0 rgba(0, 0, 0, .04);
+   /* position:fixed;*/
+    top: 0;
+    width: 100%;
+    /*z-index: 500;*/
+}
+
+.heading{
+	display: flex;
+}
+.heading span{
+	color: darkolivegreen;
+	font-family: cursive;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 40px;
+}
+
+.heading img{
+	width: 75px;
+	height: 75px;
+	margin-right: 0px;
+}
+
+.navbar{
+	display: flex; /*one after one*/
+	justify-content: space-between; /*space varaan 2 sidekk aavm*/
+	width: 85%;
+	margin-left: 100px;
+	align-items: center; /*vertically centre*/
+}
+.listitem{
+	display: inline-block;/*single line*/
+	list-style: none;/*bullet oyvakkaan*/
+	margin: 10px 20px;
+}
+.link{
+	color: darkred;
+	text-decoration: none; /*under line oyvakkan*/
+	font-weight: bold;
+}
+
+
+/*------------------------------------------------*/
+
+.homehead{
+	margin-top: 100px;
+}
+.the-title{
+	font-family: Bradley Hand, cursive;
+}
+.homehead span{
+	color: rgba(200, 100, 70, 2);
+	font-size: 35px;
+}
+.homecontent h2{
+	font-size: 80px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: darkolivegreen;
+}
+
+
+/*-----------------------------------------------*/
+
+/* Center align the items and adjust the height and width*/
+.slides{
+	width: 100%;
+	height: 100%;
+}
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  height: 550px; /* Adjust this value to set the desired height */
+}
+
+.carousel-item {
+  text-align: center;
+  height: 100%;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.slidecol{
+	margin-top: 16px;
+}
+
+.offerimg1 {
+	width: 350px;
+	height: 300px;
+	margin-top: -80px;
+	margin-left: -100px;
+	margin-bottom:-35px;
+	}
+
+
+.offerimg2 {
+	width: 300px;
+	height: 250px;
+	margin-top: -40px;
+	margin-left: -80px;
+	margin-bottom:-35px;
+}
+
+.list1{
+	margin-bottom: 0px;
+	margin-left: -100px;
+	margin-top: 100px;
+	list-style: circle;
+	color: rgba(40,50,32);
+	font-weight: 500;
+}
+.list2{
+	margin-bottom: 0px;
+	margin-top: -10px;
+	list-style: circle;
+	color: rgba(40,50,32);
+	font-weight: 500;
+}
+
+/*-----------------------menu-----------------------*/
+
+#menu{
+	margin-top: 50px;
+}
+.menuhead{
+	text-align: center;
+	color: rgba(200, 100, 70, 2);
+	font-family: Bradley Hand, cursive;
+	font-weight: bold;
+	
+
+}
+.menuhr{
+	width: 200px;
+	margin: auto;
+	color: brown;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.menucaption{
+	color: brown;
+	text-align: center;
+	font-family: monospace ;
+
+
+}
+.menu{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*-------------------contact-----------------------------*/
+
+.contacthr{
+	width: 200px;
+	color :brown;
+	margin: auto;
+}
+.storyheading{
+	text-align: center;
+	font-family: initial;
+	color: rgb(24,0,0);
+}
+.storytext{
+	font-family: monospace;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: rgb(24,0,0);
+}
+
+/*----------------------------------------*/
+.contact{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.contactheading{
+	font-family: initial;
+	margin-top: 20px;
+	color: rgb(24,0,0);
+}
+.link1{
+	color: rgb(24,0,0);
+	text-decoration: none; /*under line oyvakkan*/
+}
